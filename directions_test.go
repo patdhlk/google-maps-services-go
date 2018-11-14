@@ -15,6 +15,7 @@
 package maps
 
 import (
+	"context"
 	"fmt"
 	"log"
 	"net/http"
@@ -26,7 +27,6 @@ import (
 
 	"github.com/sergi/go-diff/diffmatchpatch"
 	"github.com/stretchr/testify/require"
-	"golang.org/x/net/context"
 )
 
 const apiKey = "AIzaNotReallyAnAPIKey"

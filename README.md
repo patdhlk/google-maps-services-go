@@ -40,7 +40,7 @@ contribute, please read [How to Contribute][contrib].
 
 ## Requirements
 
-- Go 1.6 or later.
+- Go 1.7 or later.
 - A Google Maps API key.
 
 ### API keys
@@ -104,10 +104,10 @@ Sample usage of the Directions API with an API key:
 package main
 
 import (
+	"context"
 	"log"
 
 	"github.com/kr/pretty"
-	"golang.org/x/net/context"
 	"googlemaps.github.io/maps"
 )
 
@@ -141,10 +141,10 @@ documentation for the API you're using. For example, see the guide for the
 package main
 
 import (
+	"context"
 	"log"
 
 	"github.com/kr/pretty"
-	"golang.org/x/net/context"
 	"googlemaps.github.io/maps"
 )
 
